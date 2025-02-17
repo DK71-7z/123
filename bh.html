@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>年会幸运抽奖</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 年度盛典幸运抽奖 🎁</h1>
+        <div class="prize-level">当前奖项：<span id="current-prize">一等奖（iPhone 15 Pro）</span></div>
+        
+        <div class="participants" id="participants-grid"></div>
+        
+        <div class="controls">
+            <button onclick="startLottery()" id="start-btn">开始抽奖</button>
+            <button onclick="reset()">重置</button>
+        </div>
+        
+        <div class="result" id="result">
+            <h2>🎊 中奖名单 🎊</h2>
+            <div id="winners-list"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
